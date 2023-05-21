@@ -4,24 +4,24 @@ import division
 import multiplicacion
 import suma
 
-operacion = input("Escriba una operación de entre estas (suma, resta, multiplicacion, division): ")
+calculo = input("Escriba una operación de entre estas (suma, resta, multiplicacion, division): ")
 
 a = float(input("Ingrese el primer valor: "))
 b = float(input("Ingrese el segundo valor: "))
 
-if operacion == "resta":
+if calculo == "resta":
     resultado = resta.resta(a, b)
     print("El resultado de la resta es:", resultado)
 
-elif operacion == "division":
+elif calculo == "division":
     resultado = division.division(a, b)
     print("El resultado de la división es:", resultado)
 
-elif operacion == "multiplicacion":
+elif calculo == "multiplicacion":
     resultado = multiplicacion.multiplicacion(a, b)
     print("El resultado de la multiplicación es:", resultado)
 
-elif operacion == "suma":
+elif calculo == "suma":
     resultado = suma.suma(a, b)
     print("El resultado de la suma es:", resultado)
 
