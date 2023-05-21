@@ -10,7 +10,7 @@ a = float(input("Ingrese el primer valor: "))
 b = float(input("Ingrese el segundo valor: "))
 
 if operacion == "resta":
-    resultado = Resta.resta(a, b)
+    resultado = resta.resta(a, b)
     print("El resultado de la resta es:", resultado)
 
 elif operacion == "division":
