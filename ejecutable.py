@@ -1,5 +1,5 @@
 
-import Resta
+import resta
 import division
 import multiplicacion
 import suma
